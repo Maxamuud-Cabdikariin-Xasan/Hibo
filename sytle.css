@@ -1,0 +1,554 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+    max-width: 100%;
+   
+    
+}
+.nav-link .fa-xmark{
+    display: none;
+    color: #fff;
+}
+/*===============================================NAV=============*/
+
+
+.nav-link {
+    position:fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #003049;
+    padding: 15px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    z-index: 1;
+
+}
+
+li a .fa-brands:hover{
+    color:#669bbc;
+    cursor: pointer;
+}
+
+
+.nav-break ul li{
+   
+    display: inline;
+}
+.nav-break ul{
+    margin-left: 34em;
+}
+
+nav h1:hover{
+    color:#669bbc;
+}
+.nav-link li{
+    padding:0;
+    display: flex;
+
+}
+
+.nav-link h1{
+    color: #fff;
+}
+.nav-link a{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 0px 14px;
+    
+}
+.nav-link a:hover{
+    color: #669bbc;
+    transition: 0.5s;
+
+}
+.m{
+    color: #669bbc;
+}
+.nav-break .fa-xmark{
+    display: none;
+}
+nav .fa-bars{
+    display: none;
+}
+
+.my_face img{
+    display: flex;
+    width: 50%;
+    margin-left:390px;
+    border-radius: 100px;
+}
+.ani{
+    margin: 0 auto;
+}
+
+/*-============== NAVIGATION FOR MOBILE DEVICE============*/
+
+/*=================THEM ===========*/
+/*===================VARIABLES DARK TME============*/
+
+
+/*==================SAWIRKA AAN QORAALKA DULSAARE ==========================*/
+/*.Qoraal {
+    background-image: url(../swrn/photo.jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    font-size: x-large;
+    font-family: sans-serif;
+
+}*/
+
+.slide-container{
+    display: flex;
+}
+
+/*================= QORAALKA AAN DUL SAARE SAWIRKA============== WAA QORAALKA===*/
+.Qoraal h1{
+    position: absolute;
+    margin-top:250px;
+    text-align:center;
+    margin-left: 100px;
+    color: white;
+    
+}
+
+/*======== QOraalka SHOP HEADER H2 Weeye==============*/
+
+.SHOP-header h2{
+    text-align: center;
+    padding-top:100px;
+    padding-bottom:10px;
+    
+}
+
+
+.Contact-container{
+
+    margin:0px auto;
+    color:#3a3a3a;
+}
+
+/*==============  QOraalka CONTACT US  HEADER H2 Weeye ========*/
+.CONTACT-header h2{
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:10px;
+    color: #fff;
+    
+}
+
+
+
+
+/*=============== imge-ka cabiradooda===========*/
+/*#SHOP-con{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    border: 2px solid #421220;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    margin: 10px;
+    
+   
+}
+#SHOP-con div{
+    overflow: hidden;
+    margin: 10px;
+    height: 360px;
+    width: 290px;
+}
+#SHOP-con img{
+    width: 300px;
+}
+
+============= HOVER_KA MARKI LO SO DHAWEEYO MIDIBKA IYO DHAQAAQA U SAMEENAYO WEEYE*/
+#SHOP .card:hover{
+    filter: grayscale(1);
+    transition: scale(1.03);
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card{
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.card img {
+    width: 290px;;
+    height:369px;
+    border-bottom: 1px solid #ddd;
+}
+.text{
+    padding: 15px;
+    background-color: #669bbc;
+    color: #003049;
+   
+}
+.text h3{
+    text-align: center;
+}
+
+.text p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
+
+
+/*=============================== page Contact Us================*/
+.Contactt{
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(4, 3, 3);
+    width: 30%;
+    margin: 0 auto;
+    background-color:#003049;
+    padding: 20px;
+ 
+}
+.Contactt span{
+    font-size: 12px;
+}
+.Contactt button{
+    background-color: #669bbc;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.Contactt strong{
+    color: #fff
+}
+.Contactt h2{
+    color: #f4f5f6;
+    text-align: center;
+    
+}
+
+.Contactt input{
+    border: none;
+    margin: 8px 0;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+}
+/*============ICON MOON AMA DAYAX ah====*/
+.fa-moon{
+    color: #fff;
+}
+
+ /* Qeebta Backround keda cadyahy iyo sawirka*/
+.shaqsi .ani{
+    margin: 20px 0 0;
+    color: #ffffff;  
+    background-color: #003049;
+    padding: 20px;
+
+}
+.shaqsi .info{
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+  /*  Qoraalka Hibo Abdiaziz Ku Qorantahy*/ 
+.shaqsi .ani h3{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 13px;
+}
+  
+.home{
+    background-color: #455f6e;
+    height: 100vh;
+    
+}
+.home h1{
+    color: #fff;
+    padding: 300px 0;
+    font-size: 39px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+  /* sawirkayga ama swrka igu jira*/
+
+  /*sawirka balacisa iyo dhirikisa iyo padding ama darbiga inta laga soo sikiye*/
+.my_face img{
+    border:4px solid #669bbc;
+    width: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+} 
+
+.wrapper{
+background-color:#669bbc;
+font-family: 'Josefin Sans', sans-serif; 
+}
+
+
+/*FOOTER CODE CSS*/
+footer{
+    width: 100%;
+    background-color:#669bbc;
+    padding: 10px;     
+}
+
+#nameError, #emailError, #passError, #confirmPassError{
+    color: #669bbc;
+    font-size: 12px;
+
+}
+
+
+
+
+@media (min-width:320px) and (max-width: 480px){
+
+    nav .fa-bars{
+        display: block;
+        font-size: 25px;
+        position: fixed;
+        z-index: 5;
+        color: #fff;
+        margin-top: 10px;
+        left: 8%;
+        
+    }
+    .nav-link .fa-xmark{
+        display: block;
+        color: #fff;
+        position: absolute;
+        z-index: 4;
+        left: 10%;
+        top: 3%;
+        font-size: 30px;
+    }
+
+    .home h1{
+        width: 100%;
+        margin: auto;
+        font-size: 35px;
+        
+    }
+    nav h1{
+        cursor: pointer;
+        font-size: 28px;
+        color:#ffffff;
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .nav-break{
+        top: 0;
+        background-color: #669bbc;
+        transition: 0.5s;
+        width: 200px;
+        height: 100vh;
+        color: #fff;
+        position: absolute;
+        z-index:6;
+        left: -200px;
+    }
+    .nav-break ul{
+        display: block;
+        margin-left: 0;
+        margin-top:70px;
+        
+        padding: 10px;
+    }
+    .nav-break ul li{
+        margin: 10px 0;
+        display: block;
+    }
+    .nav-break ul li a{
+        color: #fff;
+        margin: 20px 0;
+        font-size: 23px;
+    }
+
+    .nav-break ul .fa-brands{
+        display: none;
+    }
+    .nav-link a:hover{
+        color: #003049;
+        transition: 0.5s;
+    
+    }
+    .Contactt{
+        width: 85%;
+    }
+    .my_face img{
+        border:4px solid #669bbc;
+        width: 150px;
+        border-radius: 50%;
+        margin: 0 auto;
+        position: relative;
+    } 
+    .shaqsi .info{
+        width: 95%;
+        margin: 0 auto;
+        line-height: 1.5;
+    }
+
+    .card img {
+        width: 320px;
+        height:369px;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+    }
+
+}
+
+@media(min-width:768px) and (max-width: 1024px){
+   
+
+    .home h1{
+        
+        width: 100%;
+        margin: auto;
+        font-size: 35px;
+        
+    }
+    nav h1{
+        cursor: pointer;
+        font-size: 28px;
+        color:#ffffff;
+        
+    }
+
+    .nav-break ul li{
+        display: inline;
+    }
+    .nav-break ul{
+        margin-left: 4em;
+    }
+    .nav-link h1{
+        color: #fff;
+        font-size: 20px;
+    }
+    .nav-link a{
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        padding: 0px 14px;
+        
+    }
+    .Contactt{
+        width: 75%;
+    }
+    .my_face img{
+        border:4px solid #669bbc;
+        width: 180px;
+        border-radius: 50%;
+        margin: 0 auto;
+        position: relative;
+    } 
+
+
+    .card img {
+        width: 320px;
+        height:369px;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+    }
+
+    
+} 
+
+@media(width:1114px){
+    .home h1{
+        width: 50%;
+        font-size: 36px;
+         
+    }
+    nav h1{
+        cursor: pointer;
+        font-size: 28px;
+        color:#ffffff;
+        
+    }
+
+    .nav-break ul li{
+        display: inline;
+    }
+    .nav-break ul{
+        margin-left: 29em;
+    }
+    .nav-link h1{
+        color: #fff;
+        font-size: 20px;
+    }
+    .nav-link a{
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        padding: 0px 14px;
+        
+    }
+    .Contactt{
+        width: 36%;
+        margin: 0 70px;
+    }
+    .my_face img{
+        border:4px solid #669bbc;
+        width: 180px;
+        border-radius: 50%;
+        margin: 0 180px;
+        position: relative;
+    } 
+    .ani .info{
+        margin: 0 120px;
+    }
+    .CONTACT-header h2{
+        text-align: left;
+        margin: 0 170px;
+    }
+
+
+    .card img {
+        width: 320px;
+        height:369px;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+    }
+
+}
